@@ -1,0 +1,18 @@
+#Converting string to integer
+string = ["1","2","4"]
+#Give the name as a string
+string. append('3')
+del string[2]
+print("zeroth position in the list:",string[0])
+print("first position in the list:",string[1])
+print("second position in the list:",string[2])
+print("Original string list is") 
+print(string)
+for i in range(len(string)): 
+#Executing range function
+   string [i] = int(string [i]) 
+#Modifying the list as integer from string 
+print("modified to integer list")
+print(string)
+#length of the integer
+print("length of the integer:",len(string ))
