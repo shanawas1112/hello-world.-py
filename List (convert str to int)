@@ -1,22 +1,13 @@
-print("welcome to Examination hall")
-print("All the best student....do well")
-print("Here you can get your paper as per your number")
-#Odd tpye student get A type Question paper
-ExamA_dict =  {'paper': 'A type'}
-#Even tpye student get A type Question paper
-ExamB_dict =  {'paper': 'B type'}
-i = 1
-#Creating new variable
-#Using input function for getting input from a user
-j=int(input())
-#Using while loop 
-while i <=j:
-#printing the j value as student
-    print("student",i)  
-    i+=1
-    #Using if.. else statement for Separating even and odd students
-    if i%2 == 0:
-    #printing the type of paper
-       print(ExamA_dict)
-    else:
-       print( ExamB_dict)
+#input functiom
+i=int(input())
+#function
+def sum_sub(a, b, c=0, d=0):
+#if... else statement
+      if i<=90:
+           return a + b +c- d 
+      else:
+           print(i)
+#calling parameter
+#argument
+print(sum_sub(i, 10)) 
+print(sum_sub(i, 10,d=60))
