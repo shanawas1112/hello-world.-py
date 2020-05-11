@@ -1,7 +1,8 @@
-class Name:
-   def __init__(self,name,surname):
-      self.name=name
-      self.surname =surname
-obj=Name((input()),(input()))
-print(obj.name )
-print(obj.surname)
+msg = "Hello world!"
+file = open("newfile.txt", "w")
+amount_written = file.write(msg)
+print(amount_written)
+file.close()
+pop=open("newfile.txt", "r")
+print(pop.read())
+pop.close()
